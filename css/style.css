@@ -20,17 +20,17 @@ body .wrapper {
     background-color: rgb(12, 45, 63);
 }
 
-textarea.linkarea {
+textarea#linkarea {
     height: 100%;
     width: 40%;
     background-color: rgb(255, 245, 134);
     float: left;
 }
 
-.wrapper .slider {
+.wrapper #slider {
     height: 100%;
     width: 60%;
     background-color: rgb(15, 17, 17);
     float: left;
-    text-align: center;
+    color: #fff;
 }
