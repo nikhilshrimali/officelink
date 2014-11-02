@@ -9,28 +9,21 @@ html, body {
     height: 100%;
     width: 100%;
     overflow: hidden;
-    background-color: rgb(0,0,0);
 }
 
-body .wrapper {
-    height: 100%;
-    width: 100%;
-    padding: 20px;
-    display: block;
-    background-color: rgb(12, 45, 63);
-}
-
-textarea#linkarea {
+#text-content {
     height: 100%;
     width: 40%;
-    background-color: rgb(255, 245, 134);
+    background-color: white;
     float: left;
+    border: none;
+    resize: none;
 }
 
-.wrapper #slider {
+#output-box {
     height: 100%;
     width: 60%;
-    background-color: rgb(15, 17, 17);
+    background: lightgray;
+    border-left: 1px solid gray;
     float: left;
-    color: #fff;
 }
